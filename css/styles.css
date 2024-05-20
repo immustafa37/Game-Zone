@@ -1,0 +1,27 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.hero {
+    background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.features .col-md-4 {
+    margin-bottom: 30px;
+}
+
+.features .fa-gamepad, .features .fa-trophy, .features .fa-users {
+    color: #ff6347;
+}
+
+footer {
+    background-color: #000;
+}
