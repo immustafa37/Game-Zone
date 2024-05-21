@@ -5,13 +5,22 @@ body, html {
 }
 
 .hero {
-    background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+    background: url('../images/game4.png') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     text-align: center;
+    font-family: 'Audiowide', cursive;
+}
+
+.hero .display-4, .hero .lead, .navbar-brand, .features h3, footer {
+    font-family: 'Audiowide', cursive;
+}
+
+.hero .display-4, .hero .lead {
+    box-shadow: 3px 3px 10px red, -3px -3px 10px blue;
 }
 
 .features .col-md-4 {
@@ -24,4 +33,10 @@ body, html {
 
 footer {
     background-color: #000;
+    font-family: 'Audiowide', cursive;
+}
+
+/* Adding box shadow to h1 and p elements */
+.h1, .p1 {
+    text-shadow: 3px 3px 10px red, -3px -3px 10px blue;
 }
