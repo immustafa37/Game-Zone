@@ -3,6 +3,14 @@ body, html {
     padding: 0;
     font-family: 'Arial', sans-serif;
 }
+nav{
+    background-image: linear-gradient(red,black);
+}
+.nav-item:hover {
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px red, 0 0 20px blue;
+}
 
 .hero {
     background: url('../images/game4.png') no-repeat center center/cover;
@@ -14,13 +22,23 @@ body, html {
     text-align: center;
     font-family: 'Audiowide', cursive;
 }
-
+.hero  p{
+    color: #fff;
+    text-shadow: 0 0 10px red, 0 0 20px blue;
+}
+#section{
+    background-color: #000;
+    color: rgb(221, 72, 72);
+}
+#section p{
+    font-size: 20px;
+} 
 .hero .display-4, .hero .lead, .navbar-brand, .features h3, footer {
     font-family: 'Audiowide', cursive;
 }
 
-.hero .display-4, .hero .lead {
-    box-shadow: 3px 3px 10px red, -3px -3px 10px blue;
+.hero .display-4, .hero .lead h3 p{
+    text-shadow: 3px -3px 10px red, -3px -3px 10px blue;
 }
 
 .features .col-md-4 {
@@ -32,11 +50,24 @@ body, html {
 }
 
 footer {
+    background-image: linear-gradient(black 30px, blue);
     background-color: #000;
     font-family: 'Audiowide', cursive;
 }
 
-/* Adding box shadow to h1 and p elements */
 .h1, .p1 {
     text-shadow: 3px 3px 10px red, -3px -3px 10px blue;
+}
+
+/* Button hover effect */
+.btn-danger {
+    position: relative;
+    transition: color 0.3s, background-color 0.3s, border-color 0.3s;
+}
+
+.btn-danger:hover {
+    background-color: #ff4d4d;
+    border-color: #ff4d4d;
+    color: #fff;
+    box-shadow: 0 0 10px red, 0 0 20px blue;
 }
